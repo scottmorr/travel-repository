@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0
+}
+body {
+    background-color:tan
+}
+
+h1 {
+    text-align:center;
+    color:aquamarine;
+    font-size:36px;
+}
+
+#span {
+    font-size:48px;
+    font-weight:bold;
+    font-style:italic;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+.life {
+    
+    font-style: italic;
+
+} 
+h3 {
+    text-align: center;
+}
+
+img {
+    margin-left: 485px;
+}
+.btn {
+    margin-left: 650px;
+    padding: 25px;
+}
+footer{
+    position:sticky;
+    text-align:center;
+}
+.jumbotron {
+    height: 330px;
+}
