@@ -7,6 +7,7 @@ My first independent HTML project. First week of Bootcamp. Photos added. Link ad
 
 
 
+![travel pic2](https://user-images.githubusercontent.com/61360215/79623323-ddc22180-80d8-11ea-8f35-bf8da576e74d.jpg)
 
 
 
