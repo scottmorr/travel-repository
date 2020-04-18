@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 
     <meta charset="UTF-8">
@@ -9,45 +10,80 @@
     <link rel="stylesheet" href="./travel.css">
 
 </head>
+
 <body>
 
 
     <h1> travel <span id="span">Website</span></h1>
 
-    <section class="san-diego" id="sanDiego">
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664262279941797606&th=1718a5b9d90336e6&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-iY2yavt9TIlLDdBcdAIYccqM4OvTOYrEqyUF1GE0FAAs7Qi8e9R4Eb8IR6gfR1hEfhzVQKhEQYcq5ONofzbF0ugRbB1lQpQxokI4ZYuEHKSQJHoG4i4Ej_ko&disp=emb                "
-            alt="San-diego-shoreline" width="600" height="250" />
-        <h2> A weekend spent on the San Diego shoreline.</h2>
-        <p> You can watch dolphins from your oceanside patio</p>
-    </section>
 
-    <section id="india" class="india">
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664263274747105687&th=1718a6a178079197&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_XFyIEDnYvuCj2H0jtRivebgFPWUUCTZKZUsepVX_-h9A9R8EvY1HM75gBXMW8Oyo-tG2Ka8mCOByr8iI1tsrIVRtP0czrD1Q4ZSSZJmm_GxYMJfKE2jHRqeo&disp=emb                  "
-            alt="Himalaya-mountains-india" width="600" height="250" />
-        <h2> A visit to the Himalayas of India.</h2>
-        <p> Visiting such tall and exotic mountains is exhilarating</p>
-    </section>
+    <div class="flex-container">
+        <div class="san-diego" id="sanDiego">
+            <a href="sandiego.html">
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664262279941797606&th=1718a5b9d90336e6&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-iY2yavt9TIlLDdBcdAIYccqM4OvTOYrEqyUF1GE0FAAs7Qi8e9R4Eb8IR6gfR1hEfhzVQKhEQYcq5ONofzbF0ugRbB1lQpQxokI4ZYuEHKSQJHoG4i4Ej_ko&disp=emb                "
+                    alt="San-diego-shoreline" width="600" height="350" />
+            </a>
+            <h2> A weekend spent on the San Diego shoreline.</h2>
+            <p> You can watch dolphins from your oceanside patio</p>
+        </div>
+        <div id="india" class="india">
+            <a href="india.html">
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664263274747105687&th=1718a6a178079197&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_XFyIEDnYvuCj2H0jtRivebgFPWUUCTZKZUsepVX_-h9A9R8EvY1HM75gBXMW8Oyo-tG2Ka8mCOByr8iI1tsrIVRtP0czrD1Q4ZSSZJmm_GxYMJfKE2jHRqeo&disp=emb                  "
+                    alt="Himalaya-mountains-india" width="600" height="350" />
+            </a>
+            <h2> A visit to the Himalayas of India.</h2>
+            <p> Visiting such tall and exotic mountains is exhilarating</p>
+        </div>
+    </div>
 
-    <section id="belize" class="belize">
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664263075763286154&th=1718a67323ab708a&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_5-NbH-WYGj6LQTJj4LAPtpR46WjHgZLsXW1QUQm3WsyZIc4Ks57BJlQz-Wp_PySDJtf2-8_Tc2UEEZ8Ckth-YifiTWG5UqtFi6AHddjaxpWyqAxOyyjqQw5k&disp=emb                            "
-            alt="Relaxing in Belize" width="600" height="250" />
-        <h2>In Belize, the sea is always nearby</h2>
-        <p>Getting a drink at a beachside bar is a great way to spend any Belizean day!</p>
-    </section>
 
-    <section id="mexico" class="mexico">
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664263570683572200&th=1718a6e65f37afe8&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ9otyvvFjQpwdA1cl1VWzl1KSaGAUpU-zdwQGTvIMnrwQp04ZrLyYo93RFZRd9jJMsTEUzT2bELMm2tv6AqAbtu1BTLg2WaKEaoNUkLtre90xQbU9HrphefE9k&disp=emb                          "
-            alt="Man selling beverages in the water" height="250" width='600' />
-        <h2> The crystal clear waters of mexico can't be beaten</h2>
-        <p>Relax on the beach in Mexico and you'll never be surprised</p>
-    </section>
 
-    <section id="guatemala" class="guatemala">
-        <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664263663230966200&th=1718a6fbeb78d9b8&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8fHCv3dRzo930WVwVGFP0CZ4Gpnl6VtTZfbl2tpYqV7cv57MHLeW5oZN7h39BAV5WzRFVNrjHpM8OokJymAj3592aHsifw7GdIcRVUfafmwnsaE06o9PxdxRw&disp=emb                      "
-            alt="Lake in Guatemala" height="250" width="600" />
-        <h2> You can always find adventure in Guatemala</h2>
-        <p>A beautiful lake, sunset, restaurant, and dinner</p>
-    </section>
+    <div class="flex-container">
+        <div id="belize" class="belize">
+            <a href="belize.html">
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664263075763286154&th=1718a67323ab708a&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_5-NbH-WYGj6LQTJj4LAPtpR46WjHgZLsXW1QUQm3WsyZIc4Ks57BJlQz-Wp_PySDJtf2-8_Tc2UEEZ8Ckth-YifiTWG5UqtFi6AHddjaxpWyqAxOyyjqQw5k&disp=emb                            "
+                    alt="Relaxing in Belize" width="600" height="350" />
+            </a>
+            <h2>In Belize, the sea is always nearby</h2>
+            <p>Getting a drink at a beachside bar is a great way to spend any Belizean day!</p>
+        </div>
+
+        <div id="mexico" class="mexico">
+            <a href="mexico.html">
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664263570683572200&th=1718a6e65f37afe8&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ9otyvvFjQpwdA1cl1VWzl1KSaGAUpU-zdwQGTvIMnrwQp04ZrLyYo93RFZRd9jJMsTEUzT2bELMm2tv6AqAbtu1BTLg2WaKEaoNUkLtre90xQbU9HrphefE9k&disp=emb                          "
+                    alt="Man selling beverages in the water" height="350" width='600' />
+            </a>
+            <h2> The crystal clear waters of mexico can't be beaten</h2>
+            <p>Relax on the beach in Mexico and you'll never be surprised</p>
+        </div>
+    </div>
+
+
+
+    <div class="flex-container">
+        <div id="guatemala" class="guatemala">
+            <a href="guatemala.html">
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664263663230966200&th=1718a6fbeb78d9b8&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8fHCv3dRzo930WVwVGFP0CZ4Gpnl6VtTZfbl2tpYqV7cv57MHLeW5oZN7h39BAV5WzRFVNrjHpM8OokJymAj3592aHsifw7GdIcRVUfafmwnsaE06o9PxdxRw&disp=emb                      "
+                    alt="Lake in Guatemala" height="350" width="600" />
+            </a>
+            <h2> You can always find adventure in Guatemala</h2>
+            <p>A beautiful lake, sunset, restaurant, and dinner</p>
+        </div>
+
+
+        <div id="utah" class="utah">
+            <a href="utah.html">
+                <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664323058661298808&th=1718dd00feff9278&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-iB6nGSuk7UQ0DAxSEmwrQ-e8--u-PyW8zNLqgvVZ9UgMhOUHKFDuzjNi6JDCAjzWEcSxuSVBtK4enl5wDDIg9XgUoQVqvtVCT_dO79PGr2VPfFpQEfxdGPdk&disp=emb                              "
+                    alt="Monument valley" height="350" width="600" />
+            </a>
+            <h2> Utah never disappoints</h2>
+            <p>Beautiful Monument Valley never fails to "WOW"!</p>
+        </div>
+    </div>
+
+
+
+
 
     <div class="jumbotron">
         <h2 class="display-4">Get started and plan your Travels</h1>
@@ -59,7 +95,8 @@
     </div>
     <Footer>
         <h3>Travel Website created by Scott Morrison</h3>
-        <p><span style='font-size:20px;'>&#9992;</span> Don't let grass grow under your feet. Get out and travel!
+        <p><span style='font-size:20px;'>&#9992;</span> Don't let grass grow under your feet. Get out and
+            travel!
             <span style='font-size:20px;'>&#9969;</span> </p>
     </Footer>
 

@@ -4,9 +4,12 @@
     margin:0
 }
 body {
-    background-color:tan
+    background-color:tan;
 }
-
+img {
+    cursor: pointer;
+    padding: 35px;
+}
 h1 {
     text-align:center;
     color:aquamarine;
@@ -36,9 +39,6 @@ h3 {
     text-align: center;
 }
 
-img {
-    margin-left: 485px;
-}
 .btn {
     margin-left: 650px;
     padding: 25px;
@@ -49,4 +49,10 @@ footer{
 }
 .jumbotron {
     height: 330px;
+}
+.flex-container {
+    display: flex;
+}
+#mexico{
+    padding-left: 95px;
 }
