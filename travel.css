@@ -7,12 +7,13 @@ body {
     background-color:tan;
 }
 img {
+    border-radius: 58px;
     cursor: pointer;
-    padding: 35px;
+    border: 1px solid black;
+    margin-left: 55px;
 }
 h1 {
     text-align:center;
-    color:aquamarine;
     font-size:36px;
 }
 
@@ -20,6 +21,7 @@ h1 {
     font-size:48px;
     font-weight:bold;
     font-style:italic;
+    color: aquamarine
 }
 
 
@@ -53,6 +55,12 @@ footer{
 .flex-container {
     display: flex;
 }
-#mexico{
-    padding-left: 95px;
+#mexico {
+    padding-left: 90px;
+}
+#utah {
+    padding-left: 90px;
+}
+#india {
+    padding-left: 90px;
 }
