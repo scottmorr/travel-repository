@@ -1,11 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Utah</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+        .container {
+            height: 500px;
+            width: 800px;
+        }
+
+        .utah-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        }
+
+        button {
+            background-color: blue;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+
+        }
+
+        .utah-container {
+            display: none;
+            height: 800px;
+            width: 1200px;
+            margin-left: 200px;
+            margin-top: 55px;
+            background-color: lightgoldenrodyellow;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        .utah-btn {
+            margin-left: 650px;
+        }
+
+        #image img {
+            border-radius: 35px;
+            max-height: 85%;
+            max-width: 85%;
+            height: auto;
+        }
+        p {
+            margin-top: 35px;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Utah</h1>
+    <h2>Utah</h2>
+
+
+    <div class="container" id="firstContainer">
+        <div class="utah-button" id="utahButton">
+            <button id="utahButton">Push</button>
+        </div>
+    </div>
+
+    <div class="utah-container" id="utahTravel">
+        <div class="row">
+            <div class="col-md-5">
+                <div id="image" class="picture">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664445945090065500&th=17194cc4b8eec45c&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ_gEt3DfznGNNMjqvgBUzdGLD0EJqT9tDyg7ch3l3kKcTur2M8Tz3mzQSCyCSOLhd9v7IQ3XtaoLUlQ-5Dg1f2HC3Dm2GOzz9WJLJIJzB1avZ_la4jUegAkrGM&disp=emb                                          "
+                        alt="Wife with me">
+                </div>
+            </div>
+            <div class="col-md-7">
+
+                <p>I consider myself to be pretty lucky! O live in the prettiest state!</p>
+                <p>I've lived in Utah for 20 years and there's still lots to explore. Three hours away from the city and
+                    the landscape "wows".</p>
+                <p>Every time friends, or family visit Utah I take them to these dramatic scenes.</p>
+                <p>You never saw a place as beautiful as Utah!</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-7">
+                <div class="paragraph">
+                    <p>I camp-out a lot. I never stay in campgrounds. Just pull off the road and you rarely have company
+                        nearby</p>
+                    <p>The dirt roads go on for miles and miles in Utah. Camping abounds</p>
+                    <p>It doesn't matter the season. Our Southern Utah desert is never that cold</p>
+                    <p>I think its time to pack my bags and plan an excursion</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div id="image">
+                    <img src=https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664446010888175047&th=17194cd40ace3dc7&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ9BPPn20MSGmSStCT6-XFuUVlJPxVL4KRzO-BMnXUkHw74Hkc4G5jX5Cm4BJzqIW_fqXhKL0cpk5KbSQFFwYxbsue4EWLzSlgRVIWwAd3sL7vvg_P2s8-MFcwM&disp=emb "
+            alt=" Wild mountain landscape">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="jumbotron">
+        <h1 class="display-4">Get started and plan your Travels</h1>
+        <hr class="my-4">
+        <h3>Click the button and learn more.</h3>
+        <a class="btn utah-btn btn-primary btn-lg" href="travel.html" role="button">Learn more</a>
+    </div>
+    <Footer>
+        <h3>Travel <span id="span">Website</span>created by Scott Morrison</h3>
+        <p><span style='font-size:20px;'>&#9992;</span> Don't let grass grow under your feet. Get out and
+            travel!
+            <span style='font-size:20px;'>&#9969;</span> </p>
+    </Footer>
+
+
+    <script>
+
+        $(document).ready(function () {
+
+
+            $("#utahButton").click(function () {
+                $("#firstContainer").hide();
+            });
+
+            $("#utahButton").click(function () {
+                $("#utahTravel").show();
+            });
+        });
+
+
+        console.log("hi");
+
+    </script>
 </body>
+
 </html>

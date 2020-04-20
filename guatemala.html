@@ -1,11 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Guatemala</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+        .video {
+
+            background-color: lightslategray;
+            width: 585px;
+            padding-top: 10px;
+            margin-bottom: 15px;
+            margin-top: 15px;
+            margin-left: 75px;
+            padding-left: 25px;
+            padding-bottom: 15px;
+
+            /*flex-direction: column;*/
+
+        }
+
+        body {
+            background-color: lightsteelblue;
+        }
+
+        /* .card {
+            width: 50%;
+            padding-left: .5rem;
+            margin-left: .5rem;
+            float: right;
+            box-shadow: inset 5px 0 5px -5px #29627e;
+            font-style: italic;
+            color: #29627e;
+            margin-right: 85px;
+            margin-top: 85px;
+        } */
+
+
+        h3 {
+            text-align: center;
+        }
+
+        /* .card-body1 {
+            float: left;
+            width: 50%;
+            padding-left: .5rem;
+            margin-left: .5rem;
+            box-shadow: inset 5px 0 5px -5px #29627e;
+            font-style: italic;
+            color: #7e2937;
+            margin-left: 85px;
+            margin-top: 85px;
+            background-color: white;
+        } */
+        .footer {
+            text-align: center;
+        }
+
+        
+        #span {
+            font-size: 48px;
+            font-weight: bold;
+            font-style: italic;
+            color: blue;
+        }
+        .btn {
+            margin-left: 650px;
+        }
+
+        .container {
+            width: 600px;
+            float: right;
+            margin-bottom: 55px;
+        }
+
+        .flex-container {
+            display: flex;
+            margin-top: 35px;
+            margin-left: 55px;
+            margin-bottom: 65px;
+        }
+        h1{ text-align: center;}
+        p{
+            text-align: center;
+        }
+    </style>
+
+
+
+
+
+
 </head>
+
 <body>
     <h1>guatemala</h1>
+
+
+
+    <div class="flex-container">
+        <div class="video">
+            <h3>Rainy Guatemalan Jungle</h3>
+            <iframe id="start" onclick=move() width="536" height="564" src="https://www.youtube.com/embed/-FKe4vQ4dME"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+
+
+        <div class="container">
+            <h2>Flores, Guatemala</h2>
+            <img src="https://mail.google.com/mail/u/0?ui=2&ik=c10de6acda&attid=0.1.1&permmsgid=msg-f:1664429102148721949&th=17193d732b659d1d&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-m8iK5B1j707gInrDSpYadpfJnA1ZpMT2lHZ3a12wbiqQcMlW2loeFpPAboYwKcEZO8jkusiJK7iR4R2VKLw3-u0JEU7OSg67uyhmulJkz02XFgRVo5wt9dWk&disp=emb   " 
+            alt="City street at night" height="350" width="600"  >
+            <h3>Flores astounds with its flair of Spanish and European culture combined!</h3>
+            <h5>Start with this website to plan your adventure</h5> 
+               <a href=" http://www.brittanymthiessen.com/2017/10/exploring-the-charming-town-of-flores-guatemala-guide/">Flores adventure guide </a></p>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <h1 class="display-4">Get started and plan your Travels</h1>
+        <hr class="my-4">
+        <h3>Click the button and learn more.</h3>
+        <a class="btn btn-primary btn-lg" href="travel.html" role="button">Learn more</a>
+    </div>
+
+
+    <div class="Footer">
+        <h3>Travel <span id="span">Website</span>created by Scott Morrison</h3>
+        <p><span style='font-size:20px;'>&#9992;</span> Don't let grass grow under your feet. Get out and travel!
+            <span style='font-size:20px;'>&#9969;</span> </p>
+    </div>
+
+
 </body>
+
 </html>
